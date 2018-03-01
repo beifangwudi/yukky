@@ -1,6 +1,4 @@
 # Windows上的Linux
-### 前面
-最近重装了系统,记录一下在Windows 10 Pro上WSL相关的安装和配置
 ### 安装
 1. 开启功能  
 `控制面板` -> `启用或关闭 Windows 功能` -> 选中 `适用于 Linux 的 Windows 子系统`  
