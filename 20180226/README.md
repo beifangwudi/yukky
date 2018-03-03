@@ -9,7 +9,7 @@
 需要开机启动的脚本,可以写在`/etc/rc.local`中.
 ### 搭建交叉编译环境
 1. 根据路由器版本下载sdk,比如r1c下载 http://bigota.miwifi.com/xiaoqiang/sdk/tools/package/sdk_package_r1c.zip
-2. 搭建Linux环境,比如Ubuntu虚拟机,执行`apt install build-essential cmake unzip -y`等安装工具链
+2. 搭建Linux环境,以64位Ubuntu 16.04虚拟机为例,执行`apt install build-essential cmake unzip -y`等安装工具链
 3. 解压sdk_package,放在虚拟机的自定义目录下,比如`/mnt/sdk_package`
 ### 安装OpenVPN
 1. 从[官网](https://openvpn.net/index.php/open-source/downloads.html)下载源代码,目前是`openvpn-2.4.4.tar.gz`

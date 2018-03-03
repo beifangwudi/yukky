@@ -1,4 +1,4 @@
-# 给Meltdown和Spectre打补丁
+# Windows 10打Meltdown和Spectre补丁
 ### 检测
 ```powershell
 # 允许数字证书签名过的脚本运行
