@@ -62,7 +62,6 @@ echo "export HISTTIMEFORMAT='| %F %T | '" >> ~/.bashrc
 ```
 ### 开启samba匿名共享
 ```bash
-# 安装
 apt install samba -y
 mv /etc/samba/smb.conf{,.bak}
 echo '[global]

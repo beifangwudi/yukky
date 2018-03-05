@@ -5,5 +5,5 @@
 在注册表`HKEY_CLASSES_ROOT`中搜索`DiskMenuShellEx`,删除找到的注册表项
 3. 删除右键菜单的上传到百度云盘  
 在注册表`HKEY_CLASSES_ROOT`中搜索`YunShellExt`,删除找到的注册表项
-4. 删除右键菜单的`Open with Code`  
+4. 删除VSCode右键菜单的`Open with Code`  
 在注册表`HKEY_CURRENT_USER`中搜索`Open w&ith Code`,删除找到的注册表项
