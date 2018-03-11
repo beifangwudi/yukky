@@ -23,7 +23,7 @@
 4. 验证,`.\adb.exe shell "mount | grep /system"`,如果出现rw字样说明成功,ro则失败,或用第三方管理器尝试直接卸载系统自带应用
 5. 手机重启后需要重新运行`.\adb.exe root; .\adb.exe remount`或`.\adb.exe root; .\adb.exe shell "mount -o rw,remount /system"`
 ### Xposed
-对系统调用挂钩子,一般用于注入,Android至强神器.[xda下载](https://forum.xda-developers.com/showthread.php?t=3034811),需要适配,视手机型号而定,可能需要借助第三方recovery安装,比如:[TWRP](https://twrp.me/Devices/Xiaomi/)
+对系统调用挂钩子注入.[xda下载](https://forum.xda-developers.com/showthread.php?t=3034811),需要适配,视手机型号而定,可能需要借助第三方recovery安装,比如:[TWRP](https://twrp.me/Devices/Xiaomi/)
 ### Termux
 命令行终端模拟器,自带一些Linux命令,可以应急,[Google Play](https://play.google.com/store/apps/details?id=com.termux)下载,或[APK Downloader](https://apps.evozi.com/apk-downloader/?id=com.termux)和[Apkpure](https://apkpure.com/cn/termux/com.termux)
 1. 自带包管理,可以安装python,nodejs,gcc,vim等
@@ -73,8 +73,8 @@
     * SSH: Enable
 4. 右上角 -> 安装
 5. ssh连接上去,`sudo -i`切换到root,做你想做的
-### Bochs和Limbo PC Emulator QEMU
-Android上的虚拟机,[Bochs](https://play.google.com/store/apps/details?id=net.sourceforge.bochs)和[Limbo PC Emulator QEMU](https://play.google.com/store/apps/details?id=fr.energycube.android.app.com.limbo.emu.main.armv7),可以运行x86的Windows,太慢,绝对不想用第二次
+### Limbo PC Emulator
+[官网](https://limboemulator.weebly.com/),基于QEMU,在Android上运行,可以分别在ARM和x86架构上运行基于x86,ARM,PowerPC和Sparc架构的操作系统,可定制化程度高,然而性能损失严重,特殊情况下可能有用.
 ### 本地自动化
 * 一些自动化可以借助Xposed,比如:抢火车票,QQ抢红包,微信自动回复等
 * [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm),如果满足某条件,则执行某某操作,太复杂,高级使用需要理解一些编程思想
