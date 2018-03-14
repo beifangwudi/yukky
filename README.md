@@ -10,3 +10,4 @@
 2018.03.08　　　　　　　　　[验证BBR加速](https://github.com/beifangwudi/yukky/tree/master/20180308)  
 2018.03.10　　　　　　　　　[ssh内网穿透](https://github.com/beifangwudi/yukky/tree/master/20180310)  
 2018.03.12　　　　　　　　　[Windows 10的重装相关](https://github.com/beifangwudi/yukky/tree/master/20180312)  
+2018.03.14　　　　　　　　　[搭建KMS激活服务器](https://github.com/beifangwudi/yukky/tree/master/20180314)  
