@@ -13,3 +13,4 @@
 2018.03.14　　　　　　　　　[搭建KMS激活服务器](https://github.com/beifangwudi/yukky/tree/master/20180314)  
 2018.03.16　　　　　　　　　[安装Chrome和SwitchyOmega](https://github.com/beifangwudi/yukky/tree/master/20180316)  
 2018.03.18　　　　　　　　　[Windows,VMware与Docker](https://github.com/beifangwudi/yukky/tree/master/20180318)  
+2018.03.20　　　　　　　　　[RHEL安装指南](https://github.com/beifangwudi/yukky/tree/master/20180320)  
