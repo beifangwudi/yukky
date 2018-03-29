@@ -18,3 +18,4 @@
 2018.03.24　　　　　　　　　[Python做简单监控](https://github.com/beifangwudi/yukky/tree/master/20180324)  
 2018.03.26　　　　　　　　　[无密码进入Windows系统](https://github.com/beifangwudi/yukky/tree/master/20180326)  
 2018.03.28　　　　　　　　　[无感检测微信好友关系](https://github.com/beifangwudi/yukky/tree/master/20180328)  
+2018.03.30　　　　　　　　　[Windows 10关闭Hyper-V](https://github.com/beifangwudi/yukky/tree/master/20180330)  

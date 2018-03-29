@@ -19,6 +19,7 @@
 6. Windows 10激活脚本,自行替换激活密钥
     ```powershell
     slmgr /upk
+    slmgr /cpky
     slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
     slmgr /skms 192.168.66.66
     slmgr /ato

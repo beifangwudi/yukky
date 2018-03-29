@@ -1,6 +1,6 @@
 # 小米路由器的一些设置
 ### 启用ssh
-先刷[开发版](http://www1.miwifi.com/miwifi_download.html),再刷[ssh](https://d.miwifi.com/rom/ssh),运行`ssh root@192.168.31.1`登录.路由器用得是DropBear,配置文件是/etc/config/dropbear,参考[官方文档](http://wiki.openwrt.org/doc/uci/dropbear.
+先刷[开发版](http://www1.miwifi.com/miwifi_download.html),再刷[ssh](https://d.miwifi.com/rom/ssh),运行`ssh root@192.168.31.1`登录.路由器用得是DropBear,配置文件是/etc/config/dropbear,参考[官方文档](http://wiki.openwrt.org/doc/uci/dropbear).
 ### ssh免密登录
 建立`/etc/dropbear/authorized_keys`,将ssh公钥复制进去.
 ### 防火墙
