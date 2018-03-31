@@ -19,3 +19,4 @@
 2018.03.26　　　　　　　　　[无密码进入Windows系统](https://github.com/beifangwudi/yukky/tree/master/20180326)  
 2018.03.28　　　　　　　　　[无感检测微信好友关系](https://github.com/beifangwudi/yukky/tree/master/20180328)  
 2018.03.30　　　　　　　　　[Windows 10关闭Hyper-V](https://github.com/beifangwudi/yukky/tree/master/20180330)  
+2018.04.01　　　　　　　　　[在Linux上使用Citrix云桌面](https://github.com/beifangwudi/yukky/tree/master/20180401)  
