@@ -21,3 +21,4 @@
 2018.03.30　　　　　　　　　[Windows 10关闭Hyper-V](https://github.com/beifangwudi/yukky/tree/master/20180330)  
 2018.04.01　　　　　　　　　[在Linux上使用Citrix云桌面](https://github.com/beifangwudi/yukky/tree/master/20180401)  
 2018.04.03　　　　　　　　　[火车票上的身份证号](https://github.com/beifangwudi/yukky/tree/master/20180403)  
+2018.04.05　　　　　　　　　[无证书进入NSA 3600防火墙](https://github.com/beifangwudi/yukky/tree/master/20180405)  
