@@ -25,3 +25,4 @@
 2018.04.07　　　　　　　　　[验证端口敲门](https://github.com/beifangwudi/yukky/tree/master/20180407)  
 2018.04.09　　　　　　　　　[获取阿里云云监控数据](https://github.com/beifangwudi/yukky/tree/master/20180409)  
 2018.04.11　　　　　　　　　[用OpenVPN组网](https://github.com/beifangwudi/yukky/tree/master/20180411)  
+2018.04.13　　　　　　　　　[腾讯云解析DDNS](https://github.com/beifangwudi/yukky/tree/master/20180413)  
