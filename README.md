@@ -29,3 +29,4 @@
 2018.04.15　　　　　　　　　[bash杂记](https://github.com/beifangwudi/yukky/tree/master/20180415)  
 2018.04.17　　　　　　　　　[通过git远程控制](https://github.com/beifangwudi/yukky/tree/master/20180417)  
 2018.04.19　　　　　　　　　[通过邮箱远程控制](https://github.com/beifangwudi/yukky/tree/master/20180419)  
+2018.04.21　　　　　　　　　[通过web远程控制](https://github.com/beifangwudi/yukky/tree/master/20180421)  
