@@ -34,7 +34,7 @@ sed -i 's/"1"/"0"/g' /etc/apt/apt.conf.d/10periodic
 ```bash
 # 制作一个iptables规则文件
 echo '*filter
-:INPUT ACCEPT [0:0]
+:INPUT DROP [0:0]
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [0:0]
 -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
@@ -43,7 +43,8 @@ echo '*filter
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
 COMMIT' > /etc/iptables.rules
 # 让这个配置开机加载
-echo 'iptables-restore < /etc/iptables.rules' > /etc/network/if-pre-up.d/iptables
+echo -e '#!/bin/bash\niptables-restore < /etc/iptables.rules' > /etc/network/if-pre-up.d/iptables
+chmod +x /etc/network/if-pre-up.d/iptables
 # 开启转发
 echo 'net.ipv4.ip_forward=1' >> /etc/sysctl.conf
 ```

