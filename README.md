@@ -31,3 +31,4 @@
 2018.04.19　　　　　　　　　[通过邮箱远程控制](https://github.com/beifangwudi/yukky/tree/master/20180419)  
 2018.04.21　　　　　　　　　[通过web远程控制](https://github.com/beifangwudi/yukky/tree/master/20180421)  
 2018.04.23　　　　　　　　　[批量修改ssh密码](https://github.com/beifangwudi/yukky/tree/master/20180423)  
+2018.04.25　　　　　　　　　[Linux找回被删除的文件](https://github.com/beifangwudi/yukky/tree/master/20180425)  
