@@ -34,7 +34,7 @@ sed -i 's/"1"/"0"/g' /etc/apt/apt.conf.d/10periodic
 ```bash
 # 制作一个iptables规则文件
 echo '*filter
-:INPUT DROP [0:0]
+:INPUT ACCEPT [0:0]
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [0:0]
 -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
