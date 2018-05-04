@@ -20,7 +20,7 @@
     .\adb.exe root
     .\adb.exe remount
     ```
-4. 验证,`.\adb.exe shell "mount | grep /system"`,如果出现rw字样说明成功,ro则失败,或用第三方管理器尝试直接卸载系统自带应用
+4. 验证,`.\adb.exe shell "mount | grep /system"`,如果出现rw字样说明成功,ro则失败,也可以尝试直接卸载系统自带应用
 5. 手机重启后需要重新运行`.\adb.exe root; .\adb.exe remount`或`.\adb.exe root; .\adb.exe shell "mount -o rw,remount /system"`
 ### Xposed
 对系统调用挂钩子注入.[xda下载](https://forum.xda-developers.com/showthread.php?t=3034811),需要适配,视手机型号而定,可能需要借助第三方recovery安装,比如:[TWRP](https://twrp.me/Devices/Xiaomi/)

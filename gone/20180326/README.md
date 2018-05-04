@@ -10,4 +10,4 @@
     net localgroup administrators test /add
     ```
 
-能物理接触计算机用不着如此麻烦,但有些情况下还是有用的
+能物理接触计算机用不着如此麻烦,但有些情况下还是有用的,以上也可用粘滞键`sethc.exe`.

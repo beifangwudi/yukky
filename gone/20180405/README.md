@@ -15,4 +15,4 @@
     % Changes made.
     (config-administration)# exit
     ```
-4. 普通浏览器无法登录,因为需要支持相关协议.比如[K-Meleon](https://sourceforge.net/projects/kmeleon/),访问web端口.
+4. 普通浏览器无法登录,因为需要支持相关协议.可以用比如[K-Meleon](https://sourceforge.net/projects/kmeleon/),访问web端口.

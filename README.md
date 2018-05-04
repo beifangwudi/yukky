@@ -36,3 +36,4 @@
 2018.04.29　　　　　　　　　[生成合法mac地址](https://github.com/beifangwudi/yukky/tree/master/20180429)  
 2018.05.01　　　　　　　　　[生成随机密码](https://github.com/beifangwudi/yukky/tree/master/20180501)  
 2018.05.03　　　　　　　　　[网速悬浮窗](https://github.com/beifangwudi/yukky/tree/master/20180503)  
+2018.05.05　　　　　　　　　[手机照片去重](https://github.com/beifangwudi/yukky/tree/master/20180505)  
