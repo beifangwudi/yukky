@@ -23,7 +23,7 @@
 4. 验证,`.\adb.exe shell "mount | grep /system"`,如果出现rw字样说明成功,ro则失败,也可以尝试直接卸载系统自带应用
 5. 手机重启后需要重新运行`.\adb.exe root; .\adb.exe remount`或`.\adb.exe root; .\adb.exe shell "mount -o rw,remount /system"`
 ### Xposed
-对系统调用挂钩子注入.[xda下载](https://forum.xda-developers.com/showthread.php?t=3034811),需要适配,视手机型号而定,可能需要借助第三方recovery安装,比如:[TWRP](https://twrp.me/Devices/Xiaomi/)
+对系统调用挂钩子注入,需要root.[xda下载](https://forum.xda-developers.com/showthread.php?t=3034811),需要适配,视手机型号而定,可能需要借助第三方recovery安装,比如:[TWRP](https://twrp.me/Devices/Xiaomi/).对于一些无法root的设备,可以参考[VirtualXposed](http://vxposed.com/)
 ### Termux
 命令行终端模拟器,自带一些Linux命令,可以应急,[Google Play](https://play.google.com/store/apps/details?id=com.termux)下载,或[APK Downloader](https://apps.evozi.com/apk-downloader/?id=com.termux)和[Apkpure](https://apkpure.com/cn/termux/com.termux)
 1. 自带包管理,可以安装python,nodejs,gcc,vim等
