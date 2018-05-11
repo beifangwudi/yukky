@@ -39,3 +39,4 @@
 2018.05.05　　　　　　　　　[手机照片去重](https://github.com/beifangwudi/yukky/tree/master/20180505)  
 2018.05.07　　　　　　　　　[手机照片再去重](https://github.com/beifangwudi/yukky/tree/master/20180507)  
 2018.05.09　　　　　　　　　[暴力回溯数独](https://github.com/beifangwudi/yukky/tree/master/20180509)  
+2018.05.11　　　　　　　　　[自建邮箱服务](https://github.com/beifangwudi/yukky/tree/master/20180511)  
