@@ -1,11 +1,13 @@
 # 自建邮箱服务
 ### MX记录
 邮箱不同于网站,除了A记录和CNAME,还需要MX记录.需要准备一台有公网ip的服务器和一个域名,ip为`a.b.c.d`,域名为`stuvw.xyz`,操作系统为CentOS 7.我的放在了腾讯云上,用的也是腾讯云的DNS服务,设置如下:
+
 | 主机记录 | 记录类型 | 记录值 | MX优先级 |
 | :-: | :-: | :-: | :-: |
 | @ | MX | a.b.c.d. | 5 |
 | @ | TXT | v=spf1 a mx ip4:a.b.c.d -all | - |
 | mail | A | a.b.c.d | - |
+
 等待DNS生效后,验证
 ```bash
 dig mx stuvw.xyz +short
