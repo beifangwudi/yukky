@@ -43,3 +43,4 @@
 | 2018.05.09 | [暴力回溯数独](https://github.com/beifangwudi/yukky/tree/master/20180509) |
 | 2018.05.11 | [自建邮箱服务](https://github.com/beifangwudi/yukky/tree/master/20180511) |
 | 2018.05.13 | [试验用Ubuntu 18.04初始化](https://github.com/beifangwudi/yukky/tree/master/20180513) |
+| 2018.05.15 | [友华PT920获得telecomadmin](https://github.com/beifangwudi/yukky/tree/master/20180515) |
