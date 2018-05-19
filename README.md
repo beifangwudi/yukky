@@ -45,3 +45,4 @@
 | 2018.05.13 | [试验用Ubuntu 18.04初始化](https://github.com/beifangwudi/yukky/tree/master/20180513) |
 | 2018.05.15 | [友华PT920获得telecomadmin](https://github.com/beifangwudi/yukky/tree/master/20180515) |
 | 2018.05.17 | [自建软路由](https://github.com/beifangwudi/yukky/tree/master/20180517) |
+| 2018.05.19 | [删除目录下重复文件](https://github.com/beifangwudi/yukky/tree/master/20180519) |
