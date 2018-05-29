@@ -50,3 +50,4 @@
 | 2018.05.23 | [crond的前端](https://github.com/beifangwudi/yukky/tree/master/20180523) |
 | 2018.05.25 | [mimikatz破解Windows密码](https://github.com/beifangwudi/yukky/tree/master/20180525) |
 | 2018.05.27 | [花椰菜到长城的距离](https://github.com/beifangwudi/yukky/tree/master/20180527) |
+| 2018.05.29 | [保留的IPv4地址](https://github.com/beifangwudi/yukky/tree/master/20180529) |
