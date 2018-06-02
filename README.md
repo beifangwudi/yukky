@@ -40,15 +40,16 @@
 | 2018.05.03 | [网速悬浮窗](https://github.com/beifangwudi/yukky/tree/master/gone/20180503) |
 | 2018.05.05 | [手机照片去重](https://github.com/beifangwudi/yukky/tree/master/gone/20180505) |
 | 2018.05.07 | [手机照片再去重](https://github.com/beifangwudi/yukky/tree/master/gone/20180507) |
-| 2018.05.09 | [暴力回溯数独](https://github.com/beifangwudi/yukky/tree/master/20180509) |
-| 2018.05.11 | [自建邮箱服务](https://github.com/beifangwudi/yukky/tree/master/20180511) |
-| 2018.05.13 | [试验用Ubuntu 18.04初始化](https://github.com/beifangwudi/yukky/tree/master/20180513) |
-| 2018.05.15 | [友华PT920获得telecomadmin](https://github.com/beifangwudi/yukky/tree/master/20180515) |
-| 2018.05.17 | [自建软路由](https://github.com/beifangwudi/yukky/tree/master/20180517) |
-| 2018.05.19 | [删除重复文件](https://github.com/beifangwudi/yukky/tree/master/20180519) |
-| 2018.05.21 | [PowerShell使用UTF-8](https://github.com/beifangwudi/yukky/tree/master/20180521) |
-| 2018.05.23 | [crond的前端](https://github.com/beifangwudi/yukky/tree/master/20180523) |
-| 2018.05.25 | [mimikatz破解Windows密码](https://github.com/beifangwudi/yukky/tree/master/20180525) |
-| 2018.05.27 | [花椰菜到长城的距离](https://github.com/beifangwudi/yukky/tree/master/20180527) |
-| 2018.05.29 | [保留的IPv4地址](https://github.com/beifangwudi/yukky/tree/master/20180529) |
-| 2018.05.31 | [Navicat的激活](https://github.com/beifangwudi/yukky/tree/master/20180531) |
+| 2018.05.09 | [暴力回溯数独](https://github.com/beifangwudi/yukky/tree/master/gone/20180509) |
+| 2018.05.11 | [自建邮箱服务](https://github.com/beifangwudi/yukky/tree/master/gone/20180511) |
+| 2018.05.13 | [试验用Ubuntu 18.04初始化](https://github.com/beifangwudi/yukky/tree/master/gone/20180513) |
+| 2018.05.15 | [友华PT920获得telecomadmin](https://github.com/beifangwudi/yukky/tree/master/gone/20180515) |
+| 2018.05.17 | [自建软路由](https://github.com/beifangwudi/yukky/tree/master/gone/20180517) |
+| 2018.05.19 | [删除重复文件](https://github.com/beifangwudi/yukky/tree/master/gone/20180519) |
+| 2018.05.21 | [PowerShell使用UTF-8](https://github.com/beifangwudi/yukky/tree/master/gone/20180521) |
+| 2018.05.23 | [crond的前端](https://github.com/beifangwudi/yukky/tree/master/gone/20180523) |
+| 2018.05.25 | [mimikatz破解Windows密码](https://github.com/beifangwudi/yukky/tree/master/gone/20180525) |
+| 2018.05.27 | [花椰菜到长城的距离](https://github.com/beifangwudi/yukky/tree/master/gone/20180527) |
+| 2018.05.29 | [保留的IPv4地址](https://github.com/beifangwudi/yukky/tree/master/gone/20180529) |
+| 2018.05.31 | [Navicat的激活](https://github.com/beifangwudi/yukky/tree/master/gone/20180531) |
+| 2018.06.02 | [Windows 7 删除多余的网卡](https://github.com/beifangwudi/yukky/tree/master/20180602) |

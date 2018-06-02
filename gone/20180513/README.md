@@ -53,6 +53,8 @@ COMMIT' > /etc/iptables.rules
 echo '@reboot root /sbin/iptables-restore < /etc/iptables.rules' > /etc/cron.d/iptables
 # 开启ipv4转发
 sed -ri 's/^#? *(net\.ipv4\.ip_forward).*/\1=1/' /etc/sysctl.conf
+# 主机名
+hostnamectl set-hostname hahapypy
 ```
 ### 开机显示IP  
 ```bash
