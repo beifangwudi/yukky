@@ -18,9 +18,9 @@ Docker默认只接受本机连接,要让它监听端口,比如6656
     ```
     ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:6656
     ```
-2. 可以用阿里云的[镜像加速器](https://cr.console.aliyun.com/#/accelerator)为镜像下载加速
+2. 可以用ustc的[镜像加速器](https://lug.ustc.edu.cn/wiki/mirrors/help/docker)为镜像下载加速
     ```bash
-    echo '{"registry-mirrors": ["https://xxxxx.mirror.aliyuncs.com"]}' > /etc/docker/daemon.json
+    echo '{"registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]}' > /etc/docker/daemon.json
     ```
 3. 重启服务
     ```bash

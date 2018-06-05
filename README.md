@@ -54,3 +54,4 @@
 | 2018.05.31 | [Navicat的激活](https://github.com/beifangwudi/yukky/tree/master/gone/20180531) |
 | 2018.06.02 | [Windows 7 删除多余的网卡](https://github.com/beifangwudi/yukky/tree/master/20180602) |
 | 2018.06.04 | [通过dns远程控制](https://github.com/beifangwudi/yukky/tree/master/20180604) |
+| 2018.06.06 | [VSCode和Golang](https://github.com/beifangwudi/yukky/tree/master/20180606) |
