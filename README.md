@@ -55,3 +55,4 @@
 | 2018.06.02 | [Windows 7 删除多余的网卡](https://github.com/beifangwudi/yukky/tree/master/20180602) |
 | 2018.06.04 | [通过dns远程控制](https://github.com/beifangwudi/yukky/tree/master/20180604) |
 | 2018.06.06 | [VSCode和Golang](https://github.com/beifangwudi/yukky/tree/master/20180606) |
+| 2018.06.08 | [打包Python代码](https://github.com/beifangwudi/yukky/tree/master/20180608) |
