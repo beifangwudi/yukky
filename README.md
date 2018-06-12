@@ -57,3 +57,4 @@
 | 2018.06.06 | [VSCode和Golang](https://github.com/beifangwudi/yukky/tree/master/20180606) |
 | 2018.06.08 | [打包Python代码](https://github.com/beifangwudi/yukky/tree/master/20180608) |
 | 2018.06.10 | [双守护进程](https://github.com/beifangwudi/yukky/tree/master/20180610) |
+| 2018.06.12 | [Javascript检测Selenium.webdriver](https://github.com/beifangwudi/yukky/tree/master/20180612) |

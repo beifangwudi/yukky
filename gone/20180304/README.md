@@ -77,8 +77,8 @@
 [官网](https://limboemulator.weebly.com/),基于QEMU,在Android上运行,可以分别在ARM和x86架构上运行基于x86,ARM,PowerPC和Sparc架构的操作系统,可定制化程度高,然而性能损失严重,特殊情况下可能有用.
 ### 本地自动化
 * 一些自动化可以借助Xposed,比如:抢火车票,QQ抢红包,微信自动回复等
-* [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm),如果满足某条件,则执行某某操作,高级使用需要理解一些编程思想
-* [按键精灵](http://www.mobileanjian.com/),[触动精灵](http://www.touchsprite.com/),对游戏支持不错,不支持读取布局控件,读个文字还得上OCR,关键是还不准
+* [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm),如果满足某条件,则执行某某操作,可能需要会一些编程
+* [按键精灵](http://www.mobileanjian.com/),[触动精灵](http://www.touchsprite.com/),对游戏支持不错,不支持读取布局控件,读个文字还得上OCR,而且还不准
 * [Auto.js](https://github.com/hyb1996/Auto.js),基于JavaScript,基于控件,是各种精灵的超集,可以调用Java的API,开源
 * UiAutomator,Android之真·本地自动化,系统自带,官方支持,美中不足开发必须要在PC上进行
 * [Macaca](https://macacajs.github.io/)等一系列必须使用开发PC才能进行的自动化测试手段,其中部分应用如果将adb,Python或Node.js等移植到Android本机上,也可以实现脱离PC运行

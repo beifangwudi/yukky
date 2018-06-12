@@ -17,6 +17,9 @@ mkdir ~/.ssh
 echo 'ssh-rsa AAAAB......YYYYZ' > ~/.ssh/authorized_keys
 # 登录时忽略known_hosts
 echo -e 'Host *\n    StrictHostKeyChecking no\n    UserKnownHostsFile /dev/null' > ~/.ssh/config
+# 生成自登录密钥
+ssh-keygen -t rsa -N '' -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 # 重启sshd,退出普通用户,以root登录,删除普通用户
 systemctl restart sshd.service
 userdel -r xxxxx
@@ -25,6 +28,7 @@ userdel -r xxxxx
 ```bash
 # 换阿里云的源
 mv /etc/apt/sources.list{,.ori}
+export DEBIAN_FRONTEND=noninteractive
 echo 'deb http://mirrors.ustc.edu.cn/ubuntu/ bionic'{,-updates,-security,-backports}' main restricted universe multiverse' | xargs -n7 > /etc/apt/sources.list
 # 卸载一些用不上的
 apt purge -y ufw snapd landscape-common
@@ -55,6 +59,9 @@ echo '@reboot root /sbin/iptables-restore < /etc/iptables.rules' > /etc/cron.d/i
 sed -ri 's/^#? *(net\.ipv4\.ip_forward).*/\1=1/' /etc/sysctl.conf
 # 主机名
 hostnamectl set-hostname hahapypy
+# 让使用dhcp的机器,ip随mac变化
+awk '{print}/^ *dhcp/{a=gensub(/^( +).*/,"\\1dhcp-identifier: mac",1); print a}' /etc/netplan/01-netcfg.yaml > /etc/netplan/temp.yaml
+mv -f /etc/netplan/temp.yaml /etc/netplan/01-netcfg.yaml
 ```
 ### 开机显示IP  
 ```bash
@@ -71,6 +78,12 @@ sed -i '1aIP:\\4' /etc/issue
 ```bash
 echo "export HISTTIMEFORMAT='| %F %T | '" >> ~/.bashrc
 rm -f ~/.bash_history; history -c; exit
+```
+### root自动登录
+```bash
+mkdir /etc/systemd/system/getty@.service.d
+echo -e '[Service]\nExecStart=\nExecStart=-/sbin/agetty --autologin root --noclear %I $TERM' > /etc/systemd/system/getty@.service.d/01-autologin.conf
+systemctl daemon-reload
 ```
 ### 开启samba匿名共享
 ```bash
