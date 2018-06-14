@@ -32,8 +32,7 @@
     ```
 2. apt修改为国内源
     ```bash
-    export EDITOR=vi
-    apt edit-sources
+    EDITOR=vi apt edit-sources
     ```
     地址修改为`http://mirrors.tuna.tsinghua.edu.cn/termux`
 3. 开启ssh服务

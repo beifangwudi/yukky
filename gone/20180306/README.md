@@ -23,7 +23,7 @@ c:\bin\pstools\psexec.exe -i -d -s -accepteula "C:\Program Files\AutoHotkey\Auto
 ```
 将以上命令行加入计划任务,用户登录的时候运行.
 ### 被使用的文件
-Windows有一个很让人惆怅的地方,删除文件时被告知无法删除,但又不说是谁在使用,Windows 10上有所改善,但仍然存在.所以目标就是设置快捷键`CapsLock + D`,选中文件后按下,告诉我文件在被哪个进程使用.参考了[这里](https://autohotkey.com/board/topic/60985-get-paths-of-selected-items-in-an-explorer-window/)的脚本来获得选中文件的路径,用[handle](https://docs.microsoft.com/zh-cn/sysinternals/downloads/handle)来获取打开文件的进程.
+Windows有一个很让人惆怅的地方,删除文件时被告知无法删除,但又不说是谁在使用,Windows 10上有所改善,但现象仍然存在.所以目的就是设置快捷键`CapsLock + D`,选中文件后按下,告诉我文件在被哪个进程使用.参考了[这里](https://autohotkey.com/board/topic/60985-get-paths-of-selected-items-in-an-explorer-window/)的脚本来获得选中文件的路径,用[handle](https://docs.microsoft.com/zh-cn/sysinternals/downloads/handle)来获取打开文件的进程.
 ```autohotkey
 capslock & d::
     res=

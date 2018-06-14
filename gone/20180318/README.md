@@ -5,7 +5,7 @@
 以Ubuntu 16.04为例,参照[官方文档](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 ```bash
 # 添加ustc源
-add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
+add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs) edge"
 # 添加GPG密钥
 curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | apt-key add -
 apt update

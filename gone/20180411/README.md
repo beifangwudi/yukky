@@ -6,7 +6,7 @@
 1. 安装
     ```bash
     yum install epel-release iptables-services -y
-    yum update
+    yum update -y
     yum install openvpn easy-rsa -y
     ```
 2. 配置证书

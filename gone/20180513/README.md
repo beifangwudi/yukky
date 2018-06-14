@@ -2,7 +2,7 @@
 ### 登录
 ```bash
 # 登录系统,切换到root
-sudo -i
+sudo su -
 # 给root设置密码
 chpasswd <<< 'root:iampassword'
 # 关闭密码登录,开启密钥登录
@@ -59,9 +59,6 @@ echo '@reboot root /sbin/iptables-restore < /etc/iptables.rules' > /etc/cron.d/i
 sed -ri 's/^#? *(net\.ipv4\.ip_forward).*/\1=1/' /etc/sysctl.conf
 # 主机名
 hostnamectl set-hostname hahapypy
-# 让使用dhcp的机器,ip随mac变化
-awk '{print}/^ *dhcp/{a=gensub(/^( +).*/,"\\1dhcp-identifier: mac",1); print a}' /etc/netplan/01-netcfg.yaml > /etc/netplan/temp.yaml
-mv -f /etc/netplan/temp.yaml /etc/netplan/01-netcfg.yaml
 ```
 ### 开机显示IP  
 ```bash
@@ -79,7 +76,7 @@ sed -i '1aIP:\\4' /etc/issue
 echo "export HISTTIMEFORMAT='| %F %T | '" >> ~/.bashrc
 rm -f ~/.bash_history; history -c; exit
 ```
-### root自动登录
+### 自动登录TTY
 ```bash
 mkdir /etc/systemd/system/getty@.service.d
 echo -e '[Service]\nExecStart=\nExecStart=-/sbin/agetty --autologin root --noclear %I $TERM' > /etc/systemd/system/getty@.service.d/01-autologin.conf

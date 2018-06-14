@@ -30,13 +30,6 @@ sshd默认只在localhost转发,如过需要转发到其它网卡,要将GatewayP
     ```
 * 安全方面
     ```
-    PermitRootLogin no
-    StrictModes yes
-    MaxAuthTries 3
-    MaxSessions 3
-    RSAAuthentication yes
-    PubkeyAuthentication yes
-    PasswordAuthentication no
     AllowAgentForwarding no
     X11Forwarding no
     ```

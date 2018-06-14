@@ -13,3 +13,4 @@ Get-SpeculationControlSettings
 ### 接收更新
 结果仍然为红字,原因是微软没有推送补丁.微软强制要求用户必须安装防病毒软件,否则不推送安全更新.参考[这里](https://support.microsoft.com/en-us/help/4072699/january-3-2018-windows-security-updates-and-antivirus-software)解决办法是:  
 在`Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\QualityCompat`创建`DWORD(32位)`,命名为`cadca5fe-87d3-4b96-b7fb-a231484277cc`,值为0.
+本篇不再维护

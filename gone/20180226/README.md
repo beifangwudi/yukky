@@ -15,12 +15,12 @@
 1. 从[官网](https://openvpn.net/index.php/open-source/downloads.html)下载源代码,目前是`openvpn-2.4.4.tar.gz`
 2. 源代码放入虚拟机,比如`/mnt/openvpn-2.4.4.tar.gz`,解压
 3. 虚拟机中执行编译(没有开启lzo和pam)
-```bash
-export PATH=/mnt/sdk_package/toolchain/bin:$PATH
-cd /mnt/openvpn-2.4.4
-./configure --host=mipsel-xiaomi-linux-uclibc --build=mipsel-xiaomi-linux --prefix=/data/openvpn --disable-lzo --disable-plugin-auth-pam LDFLAGS="-L/mnt/sdk_package/lib" CPPFLAGS="-I/mnt/sdk_package/include"
-make && make install
-```
+    ```bash
+    export PATH=/mnt/sdk_package/toolchain/bin:$PATH
+    cd /mnt/openvpn-2.4.4
+    ./configure --host=mipsel-xiaomi-linux-uclibc --build=mipsel-xiaomi-linux --prefix=/data/openvpn --disable-lzo --disable-plugin-auth-pam LDFLAGS="-L/mnt/sdk_package/lib" CPPFLAGS="-I/mnt/sdk_package/include"
+    make && make install
+    ```
 4. 安装后的文件在`/data/openvpn`下,把整个openvpn目录复制到路由器的相同目录下
 ### 安装Python 3
 1. [官网](https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz)下载Python 3源代码,目前是3.6.5

@@ -89,3 +89,4 @@ autologin-user-timeout=0
 ' > /etc/lightdm/lightdm.conf.d/1-autologin.conf
 sed -i '/mesg n/s/^/# /' /root/.profile
 ```
+本篇不再维护
