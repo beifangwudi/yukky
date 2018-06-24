@@ -63,3 +63,4 @@
 | 2018.06.18 | [试验用CentOS 7初始化](https://github.com/beifangwudi/yukky/tree/master/20180618) |
 | 2018.06.20 | [iptables监控端口访问](https://github.com/beifangwudi/yukky/tree/master/20180620) |
 | 2018.06.22 | [收集ssh密码](https://github.com/beifangwudi/yukky/tree/master/20180622) |
+| 2018.06.24 | [自定义Ubuntu镜像](https://github.com/beifangwudi/yukky/tree/master/20180624) |
