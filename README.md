@@ -66,3 +66,4 @@
 | 2018.06.24 | [自定义Ubuntu镜像](https://github.com/beifangwudi/yukky/tree/master/20180624) |
 | 2018.06.26 | [唯一的进程](https://github.com/beifangwudi/yukky/tree/master/20180626) |
 | 2018.06.28 | [改善视力](https://github.com/beifangwudi/yukky/tree/master/20180628) |
+| 2018.06.30 | [保留root权限](https://github.com/beifangwudi/yukky/tree/master/20180630) |
