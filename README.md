@@ -52,18 +52,19 @@
 | 2018.05.27 | [花椰菜到长城的距离](https://github.com/beifangwudi/yukky/tree/master/gone/20180527) |
 | 2018.05.29 | [保留的IPv4地址](https://github.com/beifangwudi/yukky/tree/master/gone/20180529) |
 | 2018.05.31 | [Navicat的激活](https://github.com/beifangwudi/yukky/tree/master/gone/20180531) |
-| 2018.06.02 | [Windows 7 删除多余的网卡](https://github.com/beifangwudi/yukky/tree/master/20180602) |
-| 2018.06.04 | [通过dns远程控制](https://github.com/beifangwudi/yukky/tree/master/20180604) |
-| 2018.06.06 | [VSCode和Golang](https://github.com/beifangwudi/yukky/tree/master/20180606) |
-| 2018.06.08 | [打包Python代码](https://github.com/beifangwudi/yukky/tree/master/20180608) |
-| 2018.06.10 | [双守护进程](https://github.com/beifangwudi/yukky/tree/master/20180610) |
-| 2018.06.12 | [Javascript检测Selenium.webdriver](https://github.com/beifangwudi/yukky/tree/master/20180612) |
-| 2018.06.14 | [简易内存数据库](https://github.com/beifangwudi/yukky/tree/master/20180614) |
-| 2018.06.16 | [flask发邮件](https://github.com/beifangwudi/yukky/tree/master/20180616) |
-| 2018.06.18 | [试验用CentOS 7初始化](https://github.com/beifangwudi/yukky/tree/master/20180618) |
-| 2018.06.20 | [iptables监控端口访问](https://github.com/beifangwudi/yukky/tree/master/20180620) |
-| 2018.06.22 | [收集ssh密码](https://github.com/beifangwudi/yukky/tree/master/20180622) |
-| 2018.06.24 | [自定义Ubuntu镜像](https://github.com/beifangwudi/yukky/tree/master/20180624) |
-| 2018.06.26 | [唯一的进程](https://github.com/beifangwudi/yukky/tree/master/20180626) |
-| 2018.06.28 | [改善视力](https://github.com/beifangwudi/yukky/tree/master/20180628) |
-| 2018.06.30 | [保留root权限](https://github.com/beifangwudi/yukky/tree/master/20180630) |
+| 2018.06.02 | [Windows 7 删除多余的网卡](https://github.com/beifangwudi/yukky/tree/master/gone/20180602) |
+| 2018.06.04 | [通过dns远程控制](https://github.com/beifangwudi/yukky/tree/master/gone/20180604) |
+| 2018.06.06 | [VSCode和Golang](https://github.com/beifangwudi/yukky/tree/master/gone/20180606) |
+| 2018.06.08 | [打包Python代码](https://github.com/beifangwudi/yukky/tree/master/gone/20180608) |
+| 2018.06.10 | [双守护进程](https://github.com/beifangwudi/yukky/tree/master/gone/20180610) |
+| 2018.06.12 | [Javascript检测Selenium.webdriver](https://github.com/beifangwudi/yukky/tree/master/gone/20180612) |
+| 2018.06.14 | [简易内存数据库](https://github.com/beifangwudi/yukky/tree/master/gone/20180614) |
+| 2018.06.16 | [flask发邮件](https://github.com/beifangwudi/yukky/tree/master/gone/20180616) |
+| 2018.06.18 | [试验用CentOS 7初始化](https://github.com/beifangwudi/yukky/tree/master/gone/20180618) |
+| 2018.06.20 | [iptables监控端口访问](https://github.com/beifangwudi/yukky/tree/master/gone/20180620) |
+| 2018.06.22 | [收集ssh密码](https://github.com/beifangwudi/yukky/tree/master/gone/20180622) |
+| 2018.06.24 | [自定义Ubuntu镜像](https://github.com/beifangwudi/yukky/tree/master/gone/20180624) |
+| 2018.06.26 | [唯一的进程](https://github.com/beifangwudi/yukky/tree/master/gone/20180626) |
+| 2018.06.28 | [改善视力](https://github.com/beifangwudi/yukky/tree/master/gone/20180628) |
+| 2018.06.30 | [保留root权限](https://github.com/beifangwudi/yukky/tree/master/gone/20180630) |
+| 2018.07.02 | [邮件追踪术](https://github.com/beifangwudi/yukky/tree/master/20180702) |

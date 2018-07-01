@@ -6,15 +6,15 @@ export D_command D_command_pid D_face_pid I_am_father
 tmp=$(mktemp -t)
 
 while :; do
-    if [ $((I_am_father%2)) -eq 0 ] && ! ps "$D_command_pid" &> /dev/null; then
-        ($D_command & echo $! >&3) 3> $tmp
-        D_command_pid=$(cat $tmp)
+    if [ $((I_am_father%2)) -eq 0 ] && [ ! -d /proc/"$D_command_pid" ]; then
+        ($D_command & echo $! > $tmp)
+        D_command_pid=$(< $tmp)
     fi
-    if ! ps "$D_face_pid" &> /dev/null; then
+    if [ ! -d /proc/"$D_face_pid" ]; then
         ((I_am_father++))
         D_face_pid=$$
-        ("$0" & echo $! >&3) 3> $tmp
-        D_face_pid=$(cat $tmp)
+        ("$0" & echo $! > $tmp)
+        D_face_pid=$(< $tmp)
         ((I_am_father--))
     fi
     sleep 1
