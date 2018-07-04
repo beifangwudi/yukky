@@ -68,3 +68,4 @@
 | 2018.06.28 | [改善视力](https://github.com/beifangwudi/yukky/tree/master/gone/20180628) |
 | 2018.06.30 | [保留root权限](https://github.com/beifangwudi/yukky/tree/master/gone/20180630) |
 | 2018.07.02 | [邮件追踪术](https://github.com/beifangwudi/yukky/tree/master/20180702) |
+| 2018.07.04 | [简单的socks5代理](https://github.com/beifangwudi/yukky/tree/master/20180704) |
