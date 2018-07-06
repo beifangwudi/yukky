@@ -10,7 +10,7 @@
 | 2018.03.04 | [小米手机的一些设置](https://github.com/beifangwudi/yukky/tree/master/gone/20180304) |
 | 2018.03.06 | [用Python取代AutoHotkey](https://github.com/beifangwudi/yukky/tree/master/gone/20180306) |
 | 2018.03.08 | [验证BBR加速](https://github.com/beifangwudi/yukky/tree/master/gone/20180308) |
-| 2018.03.10 | [ssh内网穿透](https://github.com/beifangwudi/yukky/tree/master/gone/20180310) |
+| 2018.03.10 | [SSH内网穿透](https://github.com/beifangwudi/yukky/tree/master/gone/20180310) |
 | 2018.03.12 | [Windows 10的重装相关](https://github.com/beifangwudi/yukky/tree/master/gone/20180312) |
 | 2018.03.14 | [搭建KMS激活服务器](https://github.com/beifangwudi/yukky/tree/master/gone/20180314) |
 | 2018.03.16 | [安装Chrome和SwitchyOmega](https://github.com/beifangwudi/yukky/tree/master/gone/20180316) |
@@ -69,3 +69,4 @@
 | 2018.06.30 | [保留root权限](https://github.com/beifangwudi/yukky/tree/master/gone/20180630) |
 | 2018.07.02 | [邮件追踪术](https://github.com/beifangwudi/yukky/tree/master/20180702) |
 | 2018.07.04 | [简单的socks5代理](https://github.com/beifangwudi/yukky/tree/master/20180704) |
+| 2018.07.06 | [更新Kubernetes在Amazon的docker仓库的动态密码](https://github.com/beifangwudi/yukky/tree/master/20180706) |
