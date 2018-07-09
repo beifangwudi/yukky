@@ -7,7 +7,7 @@
 分别用webdriver和手动打开网页`test.html`
 ```html
 <script>
-    setTimeout(function () {
+    setInterval(function () {
         if ('$cdc_asdjflasutopfhvcZLmcfl_' in document)
             document.write('webdriver detected')
         else

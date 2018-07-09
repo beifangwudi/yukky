@@ -9,4 +9,9 @@ yum install privoxy -y
 echo 'forward-socks5t / 127.0.0.1:1080 .' >> /etc/privoxy/config
 systemctl start privoxy
 ```
-默认是本地8118端口
+默认是本地8118端口,或使用[goproxy](https://github.com/snail007/goproxy)
+```bash
+curl -sL https://github.com/snail007/goproxy/releases/download/v5.2/proxy-linux-amd64.tar.gz | tar zxv
+./proxy socks -t tcp -p 0.0.0.0:7474 -a user:pass --forever --log /dev/null --daemon
+```
+socks5代理,监听7474端口,可以使用用户名密码验证身份

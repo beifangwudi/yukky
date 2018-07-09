@@ -71,3 +71,4 @@
 | 2018.07.04 | [简单的socks5代理](https://github.com/beifangwudi/yukky/tree/master/20180704) |
 | 2018.07.06 | [更新Kubernetes在Amazon的docker仓库的动态密码](https://github.com/beifangwudi/yukky/tree/master/20180706) |
 | 2018.07.08 | [Linux指定进程的PID](https://github.com/beifangwudi/yukky/tree/master/20180708) |
+| 2018.07.10 | [伪装命令行](https://github.com/beifangwudi/yukky/tree/master/20180710) |
