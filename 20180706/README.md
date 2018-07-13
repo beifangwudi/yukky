@@ -1,4 +1,4 @@
-# 更新Kubernetes在Amazon的docker仓库的动态密码
+# 更新Kubernetes在ECR的动态密码
 ```bash
 dockerconfigjson='{"auths":{"xxxxecr.amazonaws.com":{"password":"'$(aws ecr get-login --no-include-email | awk '{print $6}')'","username":"AWS"}}}'
 kubectl get secret registry -o yaml --namespace OkabeRintarou | sed 's/\(\.dockerconfigjson: \).*/\1'$(echo -n $dockerconfigjson | base64 -w0)'/' | kubectl replace -f -
