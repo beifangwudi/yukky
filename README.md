@@ -74,3 +74,4 @@
 | 2018.07.10 | [伪装命令行](https://github.com/beifangwudi/yukky/tree/master/20180710) |
 | 2018.07.12 | [记录命令行](https://github.com/beifangwudi/yukky/tree/master/20180712) |
 | 2018.07.14 | [基于Ubuntu的Kiosk](https://github.com/beifangwudi/yukky/tree/master/20180714) |
+| 2018.07.16 | [注入Linux进程](https://github.com/beifangwudi/yukky/tree/master/20180716) |
