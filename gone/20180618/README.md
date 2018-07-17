@@ -16,13 +16,11 @@ echo 'ssh-rsa AAAAB......YYYYZ' > ~/.ssh/authorized_keys
 ```bash
 # 换源
 mv /etc/yum.repos.d/CentOS-Base.repo{,.ori}
-curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
-sed -i '/aliyuncs/d' /etc/yum.repos.d/CentOS-Base.repo
+curl -Lo /etc/yum.repos.d/CentOS-Base.repo https://lug.ustc.edu.cn/wiki/_export/code/mirrors/help/centos?codeblock=3
 yum -y update
 # epel
 yum install epel-release -y
-curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
-```
+curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.reposed -e 's!^metalink=!#metalink=!g' -e 's!^#baseurl=!baseurl=!g' -e 's!//download\.fedoraproject\.org/pub!//mirrors.ustc.edu.cn!g' -i /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel-testing.repo```
 ### 网络
 ```bash
 # 关闭firewalld
