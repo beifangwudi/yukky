@@ -20,7 +20,8 @@ curl -Lo /etc/yum.repos.d/CentOS-Base.repo https://lug.ustc.edu.cn/wiki/_export/
 yum -y update
 # epel
 yum install epel-release -y
-curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.reposed -e 's!^metalink=!#metalink=!g' -e 's!^#baseurl=!baseurl=!g' -e 's!//download\.fedoraproject\.org/pub!//mirrors.ustc.edu.cn!g' -i /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel-testing.repo```
+curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.reposed -e 's!^metalink=!#metalink=!g' -e 's!^#baseurl=!baseurl=!g' -e 's!//download\.fedoraproject\.org/pub!//mirrors.ustc.edu.cn!g' -i /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel-testing.repo
+```
 ### 网络
 ```bash
 # 关闭firewalld
